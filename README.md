@@ -18,9 +18,9 @@ This is a codebase repo for processing and anonymising Amica (ASK.fm (Van Hee et
 3. Confirm the .csv and .json
 4. Once confirmed, we will process the text for anonymisation using [TwitIE](https://gate.ac.uk/wiki/twitie.html) by GATE-NLP
 
-```python src/twitIE_amica.py --csv_path <Path to csv generated in step 2>```
-                           ```--username <Gate NLP API username> 
-                              --password <Gate NLP API password> 
+```python src/twitIE_amica.py --csv_path <Path to csv generated in step 2> \
+                              --username <Gate NLP API username> \
+                              --password <Gate NLP API password> \
                               --storage_path <path to store anonymised csv and json>```
 
 
