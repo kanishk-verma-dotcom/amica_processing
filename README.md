@@ -15,7 +15,8 @@ This is a codebase repo for processing and anonymising Amica (ASK.fm (Van Hee et
    
 ```
 python src/amica_processing.py --dataset_path <PATH to .txt and .ann files> \
-                              --storage_path <PATH to store .csv and .json with filename for e.g, path/to/folder/amica_processed>```
+                              --storage_path <PATH to store .csv and .json with filename for e.g, path/to/folder/amica_processed>
+```
 
 3. Confirm the .csv and .json
 4. Once confirmed, we will process the text for anonymisation using [TwitIE](https://gate.ac.uk/wiki/twitie.html) by GATE-NLP
